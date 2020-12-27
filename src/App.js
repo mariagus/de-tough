@@ -1,15 +1,40 @@
 import "./App.css";
-import Navbar from "./Navbar";
 import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Navbar from "./Navbar";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <Router>
+      <div>
         <Navbar />
-      </header>
-    </div>
+
+        {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
-export default App;
+function Home() {
+  return <div className="home"></div>;
+}
+
+function About() {
+  return <div className="about"></div>;
+}
+
+function Contact() {
+  return <div className="contact"></div>;
+}

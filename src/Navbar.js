@@ -1,21 +1,48 @@
 import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  NavLink,
+  Link,
+} from "react-router-dom";
 import logo from "./logo.png";
 import "./Navbar.css";
 
-function Navbar() {
+export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="logoContainer">
-        <img src={logo} alt="logo" className="navbar--logo" />
+        <Link to="/">
+          <img src={logo} alt="logo" className="navbar--logo" />
+        </Link>
       </div>
       <ul className="navbar--links">
-        <li className="navbar-item">home</li>
-        <li className="navbar-item">what we do</li>
-        <li className="navbar-item">who we are</li>
-        <li className="navbar-item">contact</li>
+        <li>
+          <NavLink
+            exact
+            to="/"
+            className="navbar-item"
+            activeStyle={{ color: "red" }}
+          >
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/about"
+            className="navbar-item"
+            activeStyle={{ color: "red" }}
+          >
+            About
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/contact" className="navbar-item">
+            Contact
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
 }
-
-export default Navbar;
