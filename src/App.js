@@ -1,7 +1,10 @@
 import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Navbar from "./Navbar";
+import Navbar from "./components/Navbar";
+import Home from "./Home";
+import About from "./About";
+import Expertise from "./Expertise";
 
 export default function App() {
   return (
@@ -15,6 +18,9 @@ export default function App() {
           <Route path="/about">
             <About />
           </Route>
+          <Route path="/expertise">
+            <Expertise />
+          </Route>
           <Route path="/contact">
             <Contact />
           </Route>
@@ -25,14 +31,6 @@ export default function App() {
       </div>
     </Router>
   );
-}
-
-function Home() {
-  return <div className="home"></div>;
-}
-
-function About() {
-  return <div className="about"></div>;
 }
 
 function Contact() {

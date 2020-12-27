@@ -6,7 +6,7 @@ import {
   NavLink,
   Link,
 } from "react-router-dom";
-import logo from "./logo.png";
+import logo from "./../logo.png";
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -35,6 +35,15 @@ export default function Navbar() {
             activeStyle={{ color: "red" }}
           >
             About
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/expertise"
+            className="navbar-item"
+            activeStyle={{ color: "red" }}
+          >
+            Expertise
           </NavLink>
         </li>
         <li>
