@@ -14,7 +14,6 @@ export default function About() {
           it is an existing, operational (live) store or a requirement for a new
           fit out, contact us for your complete project management solution.
         </p>
-
         <h2>What we do</h2>
         <br />
         <h3>PROJECT MANAGEMENT</h3>
@@ -25,14 +24,12 @@ export default function About() {
           respond to your project needs, so it can be completed on time, to
           budget and in accordance with Health and Safety rules and regulations.
         </p>
-
         <h3>WORKING CLOSELY WITH THE CLIENT</h3>
         <p>
           We deliver successful projects by working with the client to develop
           clear and to the point objectives and provide strategy to deliver
           them.
         </p>
-
         <h3>MANAGEMENT CONSULTANCY</h3>
         <p>
           We provide clients with a bespoke suite of business focused services
@@ -40,15 +37,18 @@ export default function About() {
           the introduction of continuous improvement practices Supply chain
           management We can assist the client to improve project efficiency,
           generate clearly defined roles and responsibilities and improve
-          overall management. CONTRACT CONSULTANCY We advise parties on their
-          contractual relationships to ensure they are established and
-          administered effectively. These services include: Construction &
-          Engineering Procurement, Contract Arrangements & Contract
-          Documentation Contract Management & Support Project Audit & Review
-          Project Monitoring, Planning & Programming We have detailed knowledge
-          and experience on all types of contracts used in the construction
-          industry. We can advise and guide clients through the processes and
-          pitfalls of a contract from inception to completion.
+          overall management.{" "}
+        </p>
+        <h3>CONTRACT CONSULTANCY</h3>{" "}
+        <p>
+          We advise parties on their contractual relationships to ensure they
+          are established and administered effectively. These services include:
+          Construction & Engineering Procurement, Contract Arrangements &
+          Contract Documentation Contract Management & Support Project Audit &
+          Review Project Monitoring, Planning & Programming We have detailed
+          knowledge and experience on all types of contracts used in the
+          construction industry. We can advise and guide clients through the
+          processes and pitfalls of a contract from inception to completion.
         </p>
         <br />
       </div>

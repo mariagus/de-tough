@@ -4,7 +4,7 @@ import "./Home.css";
 export default function Home() {
   return (
     <div className="home">
-      <p class="welcome">For your complete property solutions</p>
+      <p class="welcome">Your complete property solutions</p>
     </div>
   );
 }
