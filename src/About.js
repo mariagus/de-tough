@@ -7,8 +7,9 @@ export default function About() {
       <div className="container">
         <br />
         <h2>Who we are</h2>
+        <br />
         <p>
-          DE Tough LTD is a UK based contractor specialising in providing
+          <b>DE Tough LTD</b> is a UK based contractor specialising in providing
           management for quality refurbishments, fit outs and building work. We
           offer a complete management solution across a range of sectors for
           clients with property development and refurbishment requirements. So,
@@ -16,9 +17,10 @@ export default function About() {
           for a new fit out, contact us for your complete project management
           solution.
         </p>
+        <br />
         <h2>What we do</h2>
         <br />
-        <h3>PROJECT MANAGEMENT</h3>
+        <h4>PROJECT MANAGEMENT</h4>
         <p>
           The company offers consultancy and project management services within
           the construction industry. Our team has long years of experience in
@@ -26,22 +28,22 @@ export default function About() {
           respond to your project needs, so it can be completed on time, to
           budget and in accordance with Health and Safety rules and regulations.
         </p>
-        <h3>WORKING CLOSELY WITH THE CLIENT</h3>
+        <h4>WORKING CLOSELY WITH THE CLIENT</h4>
         <p>
           We deliver successful projects by working with the client to develop
           clear and to the point objectives and provide strategy to deliver
           them.
         </p>
-        <h3>MANAGEMENT CONSULTANCY</h3>
+        <h4>MANAGEMENT CONSULTANCY</h4>
         <p>
           We provide clients with a bespoke suite of business focused services
           to help overcome any problems. These include: Cost reduction through
           the introduction of continuous improvement practices Supply chain
           management We can assist the client to improve project efficiency,
           generate clearly defined roles and responsibilities and improve
-          overall management.{" "}
+          overall management.
         </p>
-        <h3>CONTRACT CONSULTANCY</h3>{" "}
+        <h4>CONTRACT CONSULTANCY</h4>
         <p>
           We advise parties on their contractual relationships to ensure they
           are established and administered effectively. These services include:

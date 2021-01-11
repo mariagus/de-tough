@@ -7,10 +7,9 @@ import residential from "./residential.jpg";
 export default function Expertise() {
   return (
     <div className="expertise">
-      <h2>Our fields of expertise include...</h2>
       <div className="container2">
         <div className="section">
-          <h3>RETAIL</h3>
+          <h2>RETAIL</h2>
           <img src={retail} alt="retail" className="img" />
           <ul className="list">
             <li>Food superstores</li>
@@ -24,7 +23,7 @@ export default function Expertise() {
           </ul>
         </div>
         <div className="section">
-          <h3>COMMERCIAL</h3>{" "}
+          <h2>COMMERCIAL</h2>{" "}
           <img src={offices} alt="commercial" className="img" />
           <ul className="list">
             <li>Offices</li>
@@ -39,7 +38,7 @@ export default function Expertise() {
           </ul>
         </div>
         <div className="section">
-          <h3>RESIDENTIAL</h3>
+          <h2>RESIDENTIAL</h2>
           <img src={residential} alt="residential" className="img" />
           <ul className="list">
             <li>Private houses</li>
