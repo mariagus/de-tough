@@ -5,6 +5,7 @@ export default function About() {
   return (
     <div className="about">
       <div className="container">
+        <br />
         <h2>Who we are</h2>
         <p>
           DE Tough LTD is a UK based contractor specialising in providing

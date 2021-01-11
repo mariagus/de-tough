@@ -1,0 +1,16 @@
+.expertise {
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.retail {
+  background-color: aqua;
+}
