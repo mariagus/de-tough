@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/de-tough/static/css/main.f0913fcf.chunk.css",
-    "main.js": "/de-tough/static/js/main.1d7a17dc.chunk.js",
-    "main.js.map": "/de-tough/static/js/main.1d7a17dc.chunk.js.map",
-    "runtime-main.js": "/de-tough/static/js/runtime-main.ce9d8c60.js",
-    "runtime-main.js.map": "/de-tough/static/js/runtime-main.ce9d8c60.js.map",
+    "main.css": "/de-tough/static/css/main.2ad7df7d.chunk.css",
+    "main.js": "/de-tough/static/js/main.fb286e4b.chunk.js",
+    "main.js.map": "/de-tough/static/js/main.fb286e4b.chunk.js.map",
+    "runtime-main.js": "/de-tough/static/js/runtime-main.b2b88950.js",
+    "runtime-main.js.map": "/de-tough/static/js/runtime-main.b2b88950.js.map",
     "static/js/2.ab7082a9.chunk.js": "/de-tough/static/js/2.ab7082a9.chunk.js",
     "static/js/2.ab7082a9.chunk.js.map": "/de-tough/static/js/2.ab7082a9.chunk.js.map",
-    "static/js/3.23879b99.chunk.js": "/de-tough/static/js/3.23879b99.chunk.js",
-    "static/js/3.23879b99.chunk.js.map": "/de-tough/static/js/3.23879b99.chunk.js.map",
+    "static/js/3.f6906d19.chunk.js": "/de-tough/static/js/3.f6906d19.chunk.js",
+    "static/js/3.f6906d19.chunk.js.map": "/de-tough/static/js/3.f6906d19.chunk.js.map",
     "index.html": "/de-tough/index.html",
-    "static/css/main.f0913fcf.chunk.css.map": "/de-tough/static/css/main.f0913fcf.chunk.css.map",
+    "static/css/main.2ad7df7d.chunk.css.map": "/de-tough/static/css/main.2ad7df7d.chunk.css.map",
     "static/js/2.ab7082a9.chunk.js.LICENSE.txt": "/de-tough/static/js/2.ab7082a9.chunk.js.LICENSE.txt",
-    "static/media/Expertise.css": "/de-tough/static/media/interior.697b7df3.jpg",
+    "static/media/Contact.css": "/de-tough/static/media/interior.697b7df3.jpg",
     "static/media/logo.9d284418.png": "/de-tough/static/media/logo.9d284418.png",
     "static/media/offices.7a405565.jpg": "/de-tough/static/media/offices.7a405565.jpg",
     "static/media/residential.c6809cc9.jpg": "/de-tough/static/media/residential.c6809cc9.jpg",
     "static/media/retail.f4cf4392.jpg": "/de-tough/static/media/retail.f4cf4392.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ce9d8c60.js",
+    "static/js/runtime-main.b2b88950.js",
     "static/js/2.ab7082a9.chunk.js",
-    "static/css/main.f0913fcf.chunk.css",
-    "static/js/main.1d7a17dc.chunk.js"
+    "static/css/main.2ad7df7d.chunk.css",
+    "static/js/main.fb286e4b.chunk.js"
   ]
 }
