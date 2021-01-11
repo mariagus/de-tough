@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Home from "./Home";
 import About from "./About";
 import Expertise from "./Expertise";
+import Contact from "./Contact";
 
 export default function App() {
   return (
@@ -31,8 +32,4 @@ export default function App() {
       </div>
     </Router>
   );
-}
-
-function Contact() {
-  return <div className="contact"></div>;
 }

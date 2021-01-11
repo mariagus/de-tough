@@ -1,0 +1,25 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  background-image: url("interior.jpg");
+  height: 100vh;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 10%;
+  font-size: medium;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: white;
+  padding: 1rem;
+}
+
+p {
+  margin: auto;
+}
