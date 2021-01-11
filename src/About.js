@@ -7,12 +7,13 @@ export default function About() {
       <div className="container">
         <h2>Who we are</h2>
         <p>
-          We are a UK based contractor specialising in providing management for
-          quality refurbishments, fit outs and building work. We offer a
-          complete management solution across a range of sectors for clients
-          with property development and refurbishment requirements. So, whether
-          it is an existing, operational (live) store or a requirement for a new
-          fit out, contact us for your complete project management solution.
+          DE Tough LTD is a UK based contractor specialising in providing
+          management for quality refurbishments, fit outs and building work. We
+          offer a complete management solution across a range of sectors for
+          clients with property development and refurbishment requirements. So,
+          whether it is an existing, operational (live) store or a requirement
+          for a new fit out, contact us for your complete project management
+          solution.
         </p>
         <h2>What we do</h2>
         <br />
