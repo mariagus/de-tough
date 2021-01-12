@@ -40,7 +40,11 @@ export default function Navbar() {
         </NavLink>
       </li>
       <li>
-        <NavLink to="/contact" className="navbar-item">
+        <NavLink
+          to="/contact"
+          className="navbar-item"
+          activeStyle={{ color: "red" }}
+        >
           Contact
         </NavLink>
       </li>

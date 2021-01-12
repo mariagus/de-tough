@@ -19,7 +19,6 @@ export default function About() {
         </p>
         <br />
         <h2>What we do</h2>
-        <br />
         <h4>PROJECT MANAGEMENT</h4>
         <p>
           The company offers consultancy and project management services within
