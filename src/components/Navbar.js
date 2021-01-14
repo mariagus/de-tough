@@ -1,5 +1,11 @@
 import React from "react";
-import { BrowserRouter as NavLink } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  NavLink,
+  Link,
+} from "react-router-dom";
 import "./Navbar.css";
 
 export default function Navbar() {
